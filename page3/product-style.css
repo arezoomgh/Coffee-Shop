@@ -68,13 +68,4 @@ body {
 .gallery-image:hover {
 	transform: scale(1.15);
 }
-
-.c-video {
-	max-width: 64rem;
-	width: 100%;
-	max-height: 30.875rem;
-	height: 100%;
-	margin: 32px auto;
-	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
-}
 }
