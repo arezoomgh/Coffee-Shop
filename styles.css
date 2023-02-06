@@ -1,0 +1,228 @@
+
+@font-face {
+  font-family: 'Tanha';
+  src: url('font/Tanha.eot');
+  src: url('font/Tanha.eot?#iefix') format('Tanha-opentype'),
+       url('font/Tanha.woff') format('woff'),
+       url('font/Tanha.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 600px) {
+   body{
+	  display: flex;
+      flex-direction: row;
+   }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family:Tanha;
+  direction: rtl;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background: white;
+  border-bottom: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.nav-logo {
+  width: 48px;
+  height: 48px;
+  margin: 6px;
+  margin-left: 12px;
+}
+
+.nav-links {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px grey;
+  padding: 24px;
+}
+
+.nav-links a:hover {
+  background-color: peru;
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+}
+
+.hero {
+  background-image: url("files/coffee1.jpg");
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box {
+  width: 680px;
+  background-color: burlywood;
+  opacity: 0.9;
+  border-radius: 120px;
+  box-shadow: 2px 2px 3px black;
+  margin-top: 72px;
+  padding: 52px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0px;
+}
+
+.hero-greeting {
+  max-width: 360px;
+}
+
+.hero-button {
+	background-color: burlywood;
+	padding: 5px;
+	border: solid white 2px;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+.hero-button:hover {
+	background-color: peru;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.hero-logo {
+  height: 192px;
+  width: 192px;
+  margin-left: 24px;
+}
+
+.content {
+  background-color: peru;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content-title {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.panels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  width: 200px;
+  height: 200px;
+  margin: 32px;
+  margin-bottom: 24px;
+  padding-bottom: 48px;
+}
+
+.panel-icon {
+  width: 160px;
+  height: 160px;
+  border: solid 6px burlywood;
+  border-radius: 10%;
+  box-shadow: 2px 2px 3px black;
+  margin-bottom: 16px;
+}
+
+.panel-text {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+
+.quote-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("files/coffee-back.jpg");
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 8px outset peru;
+  padding: 36px;
+  margin: 48px;
+  max-width: 700px;
+  background-color: white;
+}
+
+.quote-text {
+  margin: 0px;
+}
+
+.club-btn {
+  margin: 8px 0px 0px auto;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: peru;
+  border: none;
+}
+
+.club-btn a{
+	text-decoration: none;
+	color: black;
+}
+
+.club-btn:hover{
+  font-size: 18px;
+  background-color: burlywood;
+}
+
+.contact-info {
+  background-color: peru;
+  color: white;
+  padding: 48px;
+  margin: 0px;
+}
+
+.footer {
+  height: 72px;
+  background-color: white;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
